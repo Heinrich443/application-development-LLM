@@ -19,11 +19,11 @@ spring:
         options:
 #          model: qwen3.7-max
           model: glm-5.1
-#      memory:
-#        repository:
-#          jdbc:
-#            platform: mysql
-#            initialize-schema: always
+      memory:
+        repository:
+          jdbc:
+            platform: mysql
+            initialize-schema: always
   datasource:
     url: jdbc:mysql://localhost:3306/spring_ai_db2?useUnicode=true&characterEncoding=UTF-8  # 记得改成你自己的
     username: root  # 记得改成你自己的
