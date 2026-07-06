@@ -36,7 +36,7 @@ import static dev.langchain4j.data.message.SystemMessage.systemMessage;
 import static dev.langchain4j.data.message.UserMessage.userMessage;
 
 @RestController
-@RequestMapping("/langchain")
+@RequestMapping("/langchain/low")
 public class LangChainLowLevelController {
 
     @Autowired
