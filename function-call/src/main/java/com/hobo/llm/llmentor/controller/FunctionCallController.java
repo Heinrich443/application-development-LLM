@@ -1,4 +1,4 @@
-package com.hobo.llm.llmentor.function;
+package com.hobo.llm.llmentor.controller;
 
 import jakarta.annotation.PostConstruct;
 import lombok.RequiredArgsConstructor;
