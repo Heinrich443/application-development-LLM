@@ -6,7 +6,7 @@ spring:
   ai:
     openai:
       api-key: @dashscope.api.key@
-      base-url: https://llm-hheyvlcyn40cc7dk.cn-beijing.maas.aliyuncs.com/compatible-mode/v1
+      base-url: https://llm-hheyvlcyn40cc7dk.cn-beijing.maas.aliyuncs.com/compatible-mode
       chat:
         options:
           model: qwen3.7-plus
