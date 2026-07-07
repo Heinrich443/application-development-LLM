@@ -18,6 +18,7 @@
     <modules>
         <module>springai</module>
         <module>langchain4j</module>
+        <module>function-call</module>
     </modules>
 
     <properties>
