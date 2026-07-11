@@ -19,6 +19,11 @@
         <module>springai</module>
         <module>langchain4j</module>
         <module>function-call</module>
+        <module>mcp/mcp-server-sse</module>
+        <module>mcp/mcp-server-stdio</module>
+        <module>mcp/mcp-server-streamable</module>
+        <module>mcp/mcp-server-sse-https</module>
+        <module>mcp/mcp-client</module>
     </modules>
 
     <properties>
