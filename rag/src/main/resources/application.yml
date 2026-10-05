@@ -1,0 +1,38 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: RAG
+  ai:
+    dashscope:
+      api-key: @dashscope.api.key@
+      embedding:
+        options:
+          model: qwen3.7-text-embedding
+          dimensions: 768
+    vectorstore:
+      pgvector:
+        # 向量索引类型
+        index-type: HNSW
+        # 距离度量，余弦值
+        distance-type: COSINE_DISTANCE
+        # 向量维度
+        dimensions: 768
+        # 批量处理大小
+        max-document-batch-size: 9
+        # 启动时是否自动创建表
+        initialize-schema: true
+        # 创建的表名
+        table-name: vector_st
+    openai:
+      api-key: @dashscope.api.key@
+      base-url: https://dashscope.aliyuncs.com/compatible-mode/
+      chat:
+        options:
+          model: qwen3.8-27b
+          temperature: 0.7
+          maxTokens: 5000
+  datasource:
+    url: jdbc:postgresql://localhost:5432/rag_test
+    username: pgvector
+    password: pgvector
