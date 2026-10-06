@@ -36,3 +36,4 @@ spring:
     url: jdbc:postgresql://localhost:5432/rag_test
     username: pgvector
     password: pgvector
+    driver-class-name: org.postgresql.Driver
