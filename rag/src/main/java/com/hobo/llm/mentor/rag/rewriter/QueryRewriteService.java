@@ -8,8 +8,11 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+/**
+ * 查询重写服务，原QuestionRewriteService
+ */
 @Service
-public class QuestionRewriteService {
+public class QueryRewriteService {
 
     @Autowired
     private ChatModel chatModel;
