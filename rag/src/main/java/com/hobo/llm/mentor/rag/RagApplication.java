@@ -13,7 +13,6 @@ import org.springframework.scheduling.annotation.EnableScheduling;
         Neo4jAutoConfiguration.class,
         Neo4jDataAutoConfiguration.class,
         Neo4jReactiveDataAutoConfiguration.class,
-        ElasticsearchDataAutoConfiguration.class,
         ReactiveElasticsearchRepositoriesAutoConfiguration.class
 })
 @EnableScheduling

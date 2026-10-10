@@ -37,3 +37,5 @@ spring:
     username: pgvector
     password: pgvector
     driver-class-name: org.postgresql.Driver
+  elasticsearch:
+    uris: http://localhost:9200
