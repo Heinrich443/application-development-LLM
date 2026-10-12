@@ -6,6 +6,12 @@ spring:
   ai:
     dashscope:
       api-key: @dashscope.api.key@
+      chat:
+        options:
+          model: qwen3.8-27b
+          temperature: 0.7
+          # qwen3.8 系列走多模态端点，不设会报 url error
+          multi-model: true
       embedding:
         options:
           model: qwen3.7-text-embedding
@@ -39,3 +45,8 @@ spring:
     driver-class-name: org.postgresql.Driver
   elasticsearch:
     uris: http://localhost:9200
+  neo4j:
+    uri: bolt://localhost:7687
+    authentication:
+      username: neo4j
+      password: neo4j666
