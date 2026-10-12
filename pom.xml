@@ -32,7 +32,7 @@
         <spring.ai.version>1.1.0</spring.ai.version>
         <fastjson.version>2.0.43</fastjson.version>
         <spring.ai.alibaba.version>1.1.2.0</spring.ai.alibaba.version>
-        <dashscope.api.key>sk-f315527b8b6442deb0336ed4026056f3</dashscope.api.key>
+        <dashscope.api.key>sk-xxxxxxx</dashscope.api.key>
     </properties>
 
     <dependencyManagement>
