@@ -14,7 +14,7 @@ spring:
           multi-model: true
       embedding:
         options:
-          model: qwen3.7-text-embedding
+          model: qwen3.7-text-embedding-flash
           dimensions: 768
     vectorstore:
       pgvector:
